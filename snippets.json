@@ -10,7 +10,7 @@
             "}"
 		],
 		"description":[
-			"快速写一个test函数",
+			"快速写一个test的函数",
 			"",
 			"调用tyc_test.a方法",
 			"@param val — 参数1",
