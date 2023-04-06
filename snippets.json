@@ -1,20 +1,21 @@
 {
 	"tyc_test": {
 		"prefix": [
-			"tycA",
-			"testA"
+			"sT",
+			"stl"
 		],
 		"body": [
-            "function test(${1:val}: number, ${2:val2}: string) {",
-            "    return tyc_test.a(val, val2);",
+            "public void setTitle(String title) {",
+            "    ThreadUtils.runOnUiThread(() -> {",
+						"        title_bar.setTitle(title);",
+						"    });",
             "}"
 		],
 		"description":[
-			"快速写一个test的函数",
+			"快速写一个setTitle的函数",
 			"",
-			"调用tyc_test.a方法",
-			"@param val — 参数1",
-			"@param val2 — 参数2."
+			"调用setTitle(String title);方法",
+			"@param title — 参数1 String"
 		]
 	}
 }
